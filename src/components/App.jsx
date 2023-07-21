@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div>
         <Container>
-          <Title>Phonebook</Title>
+          <Title>Phonebook!</Title>
           <Form onSubmit={this.addNewContact} />
           <SecondaryTitle>Contacts</SecondaryTitle>
           <Filter onChange={this.updateFilter} />
